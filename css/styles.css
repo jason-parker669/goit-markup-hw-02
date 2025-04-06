@@ -31,6 +31,10 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+.text {
+}
+
 ul {
   list-style-type: none;
 }
@@ -60,8 +64,10 @@ a {
 }
 
 .page-nav .link {
+  color: #2e2f42;
 }
-.page-nav .link:hover {
+.page-nav .link:hover,
+.page-nav .link:focus {
   color: #404bbf;
 }
 
@@ -74,15 +80,19 @@ a {
 .hero .hero-heading {
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .hero .hero-button {
   color: inherit;
   background-color: #4d5ae5;
   letter-spacing: 0.04em;
+  line-height: 1.5;
+  cursor: pointer;
 }
 
-.hero .hero-button:hover {
+.hero .hero-button:hover,
+.hero .hero-button:focus {
   color: inherit;
   background-color: #404bbf;
 }
@@ -90,13 +100,12 @@ a {
 .why-us {
 }
 
-.footer-style {
-  color: #f4f4fd;
-  background-color: #2e2f42;
-}
-
 .team {
   background-color: #f4f4fd;
+}
+
+.team .text {
+  font-size: 16px;
 }
 
 .section-heading {
@@ -104,11 +113,24 @@ a {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
+
+.team .box {
+  background-color: #ffffff;
+}
+
 .section-small-heading {
   color: #2e2f42;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.footer-style {
+  color: #f4f4fd;
+  background-color: #2e2f42;
 }
 
 .footer-logo {
