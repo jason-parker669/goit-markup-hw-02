@@ -1,0 +1,119 @@
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #fcfcfc;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-style {
+  background-color: #e7e9fc;
+}
+
+.header-logo {
+  text-transform: uppercase;
+  color: #2e2f42;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.logo-accent {
+  color: #4d5ae5;
+}
+
+.page-nav {
+}
+
+.page-nav .link {
+}
+.page-nav .link:hover {
+  color: #404bbf;
+}
+
+.hero {
+  color: #ffffff;
+  background-color: #2e2f42;
+  text-align: center;
+}
+
+.hero .hero-heading {
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.hero .hero-button {
+  color: inherit;
+  background-color: #4d5ae5;
+  letter-spacing: 0.04em;
+}
+
+.hero .hero-button:hover {
+  color: inherit;
+  background-color: #404bbf;
+}
+
+.why-us {
+}
+
+.footer-style {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.section-heading {
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+.section-small-heading {
+  color: #2e2f42;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.footer-logo {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
