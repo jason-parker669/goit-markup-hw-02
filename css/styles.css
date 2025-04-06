@@ -71,8 +71,13 @@ a {
   color: #404bbf;
 }
 
-.address-style {
+.page-nav .address-style {
   color: #434455;
+}
+
+.page-nav .address-style:hover,
+.page-nav .address-style:focus {
+  color: #404bbf;
 }
 
 .hero {
