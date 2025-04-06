@@ -71,6 +71,10 @@ a {
   color: #404bbf;
 }
 
+.address-style {
+  color: #434455;
+}
+
 .hero {
   color: #ffffff;
   background-color: #2e2f42;
@@ -117,15 +121,15 @@ a {
   text-transform: capitalize;
 }
 
-.team .box {
-  background-color: #ffffff;
-}
-
 .section-small-heading {
   color: #2e2f42;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.team .box {
+  background-color: #ffffff;
 }
 
 .footer-style {
